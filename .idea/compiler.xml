@@ -18,9 +18,9 @@
         <processorPath useClasspath="true" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="camel.dsl_main" target="1.5" />
-      <module name="camel.dsl_test" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="camel.dsl_main" target="1.8" />
+      <module name="camel.dsl_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
