@@ -17,6 +17,7 @@ public class DemoApplication {
 			ctx.start();
 			Thread.sleep(5 * 60 * 1000);
 			ctx.stop();
+			System.out.print("stop");
 		}
 		catch (Exception e) {
 			e.printStackTrace();
